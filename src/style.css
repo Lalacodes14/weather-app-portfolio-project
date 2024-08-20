@@ -1,20 +1,16 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/140/226/original/image0_%286%29.jpeg?1724157666");
+  background-size: cover;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(
-    90deg,
-    rgba(91, 224, 254, 0.46) 0%,
-    rgba(170, 254, 235, 0.43) 100%
-  );
 }
 
 a {
-  color: black;
+  color: #885df1;
 }
 
 .weather-app {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/622/original/image0_%282%29.jpeg?1723830060");
-
+  background: white;
+  opacity: 0.9;
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -37,7 +33,7 @@ header {
 }
 
 .search-form-button {
-  background: rgb(50, 118, 130);
+  background: rgb(228, 176, 41);
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -59,18 +55,17 @@ main {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
-  color: white;
 }
 
 .weather-app-details {
   font-size: 16px;
-  color: white;
+  color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
 }
 
 .weather-app-details strong {
-  color: rgb(242, 38, 106);
+  color: rgb(106, 168, 159);
 }
 
 .weather-app-temperature-container {
@@ -86,13 +81,11 @@ main {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
-  color: white;
 }
 
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
-  color: white;
 }
 
 .weather-forecast {
@@ -103,19 +96,21 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: white;
+  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: rgb(242, 38, 106);
+  color: rgb(106, 168, 159);
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -130,5 +125,5 @@ footer {
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: white;
+  color: rgba(0, 0, 0, 0.6);
 }
